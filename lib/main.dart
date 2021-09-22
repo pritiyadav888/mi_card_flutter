@@ -1,5 +1,8 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 void main() => runApp(MyApp());
 
@@ -81,7 +84,7 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Icon(
-                          Icons.phone,
+                          Icons.social_distance,
                           color: Colors.teal,
                           size: 20.0,
                         ),
@@ -90,12 +93,14 @@ class MyApp extends StatelessWidget {
                         ),
                         Center(
                           child: Text(
-                            '+1 669 290 5006',
+                            '+1 xxx xxx xxxx',
                             style: TextStyle(
                               fontFamily: "Nerko One",
                               color: Colors.teal,
                               fontSize: 20.0,
                               fontWeight: FontWeight.normal,
+
+                              // '
                             ),
                           ),
                         ),
